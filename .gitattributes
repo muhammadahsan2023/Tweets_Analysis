@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+“tweets.csv” filter=lfs diff=lfs merge=lfs -text
+sentiment_tweets.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+tweets.csv filter=lfs diff=lfs merge=lfs -text
